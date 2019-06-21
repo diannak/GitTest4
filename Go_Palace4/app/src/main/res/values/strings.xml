@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Go_Palace4</string>
+    <string name="title_home">Home</string>
+    <string name="title_tmap">지도</string>
+    <string name="title_share">인스타그램</string>
+    <string name="title_navi">내비</string>
+    <string name="title_mypage">마이페이지</string>
+    <string name="kakao_app_key"> 2db0d8b949551bbf1f3b270d0e32bf12</string>
+    <string name="kakao_scheme">kakao2db0d8b949551bbf1f3b270d0e32bf12</string>
+    <string name="ad_unit_id_1">ca-app-pub-7650276427092091/5585664440</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/colorW"
+    android:orientation="vertical">
+
+    <!--이미지 크기조절 android:scaleType="centerInside"
+출처: https://isntyet.tistory.com/65 [괴발...]-->
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:adjustViewBounds="true"
+        android:radius="8dp"
+        android:scaleType="centerCrop"
+        android:shape="rectangle"
+        android:src="@drawable/happy_dog_logo" />
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="bottom|right"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@color/colorF"
+        android:scaleType="centerCrop" />
+
+</RelativeLayout>

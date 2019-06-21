@@ -1,0 +1,36 @@
+new 해서 만든것이 바로 폴더임.
+디자인은 CSS3에서 한다.
+
+<> 하나하나가 다 '태그' 늘 쌍(여닫)으로 다님.
+<!DOCTYPE html> : HTML5 문서라는것.
+
+<br></br> = <br/>줄바꿈
+
+<head> 웹 문서의 정의 기술
+<title>제목
+</head>
+<body>웹 문서의 내용 기술.
+
+<meta> 태그는 HTML 문서가 어떤 내용을 담고 있고, 문서의 키워드는 무엇이며, 누가 만들었는지 등의 
+	   문서 자체의 특성을 담고 있습니다.
+	   
+<a href> (a 앵커태그)(hypertext reference) : 연결할 주소 지정 속성.
+<a href> 위의 주소 (생략)target 특성
+ 
+<div> (Division):  웹사이트의 레이아웃 만들때 사용. 논리
+	ex) <li>바보<li> 
+		<li>멍청이<li>
+						1.바보
+						2.멍청이
+<ul> 순서 x 목록 단순 나열
+	 <li>태그를 사용
+<ol> 순서있는 목록	 
+<table></table> 표 만들기 태그
+<tr>행
+<td>열
+<th>h=head 짙게 나오는데 모든 디자인은 CSS3에서 
+&nbsp 한칸 스페이스 처리
+border 선이 생김.
+colspan = 가로 행 "개수" 한칸짜리 두칸만큼 크기로 
+lowspan = 밑으로 두칸 합쳐죠
+

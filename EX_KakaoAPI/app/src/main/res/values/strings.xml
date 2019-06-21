@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EX_KakaoAPI</string>
+    <string name="kakao_app_key">0f52fdc470641df14a740a9834799a60</string>
+</resources>

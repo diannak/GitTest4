@@ -1,0 +1,25 @@
+자바 스크립트
+
+조각 소스코드 : 부분부분 
+읽으면서 실행이 되면서 = 인터프리터
+c언어 차용
+document=화면
+alert :팝업창 비슷한거
+prompt는 입력을 받음.----> 팝업창에서 입력칸?이뜨고 입력을 받음
+ret: return;
+syso = document.writeln : 동적으로 페이지를 만들때 화면에다 찍어준다.
+	=내가 입력하지않아도 예비입력값처럼 떠잇다.
+
+	팝팝팝업창!
+alert: 알림
+confirm :확인
+prompt : 입력	
+button :네모난거 하나 생겨 누르면 아무 동작안해 하고싶음 onclick을 태깅
+
+어차피 ln은 안먹혀서 
+그냥 write까지 씀
+
+EVAL 문자열을 수식으로 
+
+slice =sub string
+

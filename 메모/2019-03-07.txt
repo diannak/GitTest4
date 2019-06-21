@@ -1,0 +1,15 @@
+자바빈 = DTO
+선언
+<jsp:useBean id="빈이름" class = "자바빈원래 이름" scope = "사용범위"/>
+사용(set)
+<jsp:setProperty name="자바빈이름 property= "클래스 멤버 변수" value="세팅할 값 ">
+<jsp:getProperty name="자바빈이름 property= "클래스 멤버 변수">
+
+insert = update -->updatecount
+
+select = query-->resultset
+
+ 내가 사용할 티이블에 대한 DTO를 만들고
+ dto.set();
+
+

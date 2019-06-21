@@ -1,0 +1,71 @@
+데이터 베이스 = 모델
+컨트롤ㄹ러
+뷰 주로 디자이너나 코더 퍼블리셔들이 만드나 우리는 플젝때문에 만들어야함.
+
+=게시판
+
+	public BDto(int bId, String bName, String bTitle, String bContent, Timestamp bDate, int bHit, int bGroup, int bStep,
+			int bIndent) {
+			
+			현재 페이지 기억 = session 에 저장 근데 용량 많이 먹?
+	
+회원가입
+로그인
+게시판
+글쓰기
+
+아마존 AWS사용
+콘솔에 로그인
+EC2
+s3
+RDS
+가 무료패키지로 쓸수 있음 
+ EC2대시보드에서
+인스턴스 시작	
+프리티어 사용 유번트는 개인용 레드햇은 기업용 (유료) == 패도라 개인용 : 같은 건데 비용 
+레드햇 64bit선택 t2 ,micro 프리티어 사용
+다음 
+인스턴스 개수 1
+
+종료방식은 f
+ 다음
+ 10기가로
+ SSD하드웨어
+ 새불륨추가 하지마 돈내
+ 새보안그룹 생성
+ 규칙추가 - HTTP, HTTPS,사용자 지정TCP (포트범위 톰캣 = 8081), 포트범위 80
+ 하고 검토및 시작
+ 
+기존키 페어 선택 또는.. 
+새키페어 생성 = aws- password(이름).
+키페어 다운로드 -> 인증 개인키 생김.
+다운받고 인스턴스 시작하기.
+인스턴스 보기 
+이름을 wbserver로 지정
+선택하면 밑에 정보가 쭉뜸 퍼블릭 DNS로 주소를 침ㄴ 뜸 .아마존AWS.com뺴고
+작업 인스턴스 상태 중지야 종료하면 싹 지워 ㅠㅠ 
+연결에 dns 있음.
+
+putty를 사용해서 연결
+putty다운로드 페이즈로 가서 
+download it here 누르고 puttyzip ~above 이거  zip 압축 풀고 실행파일 받아쓸거얌 = 설치없이 바로씀
+그 파일들을 복사해서 
+puttygen을 사용해서 키 형태를 변환 
+RSA선택 후 load All files 선택 키 다운받은거 열어 확인눌러 세이브 프라이빗 키 그리고 예
+이름 똑같이 쓰기 aws-password ppk로 저장 그리고 닫아
+
+푸티 우클릭 시작화면에 추가
+내 퍼블릭 DNS를  host name에 붙여 넣고 SSH선택 
+SAVED sessions aws webserver로 
+Appearance color - 0 0 0 =검은색
+SSH선택 kex 말고 auth 에다가 ppk주소 붙여넣어.
+session와서 세이브 눌러 aws 누르고 로드 하면 만든거 나옴.
+오픈하셈 
+예
+
+	} else if (ri == MemberDao.MEMBER_NONEXISTENET){
+				json_data = "{\"code\":\"fail\", \"desc\":\"로그인 실패- 아이디를 확인하세요.\"}";
+			}
+			  
+
+

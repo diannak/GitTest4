@@ -1,0 +1,42 @@
+request: 사용자가 요청한 정보가 다들어있다.
+
+ <form> 태그의 속성에는 method, action, enctype 등이 있는데
+입력 받은 데이터를 어떻게 처리할 것인지 설정 하는데 사용 된다.
+
+ 
+
+method : 전송 방식 - post , get
+
+action : 전송 목적지 - url
+
+enctype :  전송 데이터 형식 설정
+
+enctype은 encoding type 을 말하는데 종류는 세가지 있다.
+
+ 
+
+1. application/x-www-form-urlencoded
+
+디폴트 값. 서버로 전송되기 전에 url-encode 된다는 뜻.
+
+2. mutipart/form-data
+
+파일 받으면서 설정해준게 이 값인데 이미지나 파일을 서버로 전송할 경우 이 방식을 사용
+
+ 
+3. text/plain
+인코딩을 하지 않은 문자 그대로의 상태를 전송한다는 의미.
+
+setAttribute()는 선택한 요소(element)의 속성(attribute) 값을 정합니다
+
+request.getParameter = param
+
+c: set = 변수선언
+c: catch = 에러잡기
+
+에러라는 변수를 만들고 catch 에 넣고 그걸 출력한다.
+걍 온전한 JSp를 써라...안유용하다..
+
+젤 마지막을 자주 쓰게 될것이다.
+	Service service = new loginOk();
+			service.execute(request, response);

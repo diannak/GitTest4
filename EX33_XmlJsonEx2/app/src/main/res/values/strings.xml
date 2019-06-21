@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">EX33_XmlJsonEx2</string>
+    <string name="server_addr">http://192.168.0.98:8081</string>
+</resources>

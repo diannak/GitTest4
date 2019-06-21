@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <!--색상추가-->
+    <color name="colorB">#202020</color>
+    <color name="colorMain">#FDF8E6</color>
+    <color name="colorF">#00FFFFFF</color>
+    <color name="colorBack0">#FF9800</color>
+    <color name="colorBack1">#00BCD4</color>
+    <color name="colorTel">#4CAF50</color>
+    <color name="black">#383838</color>
+    <color name="colorW">#FFFFFF</color>
+</resources>

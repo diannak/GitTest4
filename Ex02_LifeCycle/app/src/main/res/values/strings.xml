@@ -1,0 +1,5 @@
+<!-- 나라별 언어 여기다가 해두면 알아서 뿌려줌-->
+<resources>
+    <string name="app_name">Ex02_LifeCycle</string>
+    <string name="btn1_name">새로운 액티비티</string>
+</resources>

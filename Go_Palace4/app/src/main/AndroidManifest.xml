@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.study.android.go_palace">
+    <!-- 외부저장소 피카소 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 지도 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- 구글맵 -->
+    <permission
+        android:name="com.study.android.go_palace.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.study.android.go_palace.permission.MAPS_RECEIVE" />
+    <!-- 얜 모르겟음 -->
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/go_palace"
+        android:label="Go궁"
+        android:roundIcon="@drawable/gyeongbokgung"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:label">
+        <!-- 앱 실행 시 액티비티 진행될 순서 -->
+        <!-- 1.인트로 -->
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.category.BROWSABLE" />
+                <!--
+             카카오 공유?
+                <data android:scheme="@string/kakao_scheme"
+                      android:host="@string/kakaolink_host"/>
+                -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".TMapActivity" />
+        <activity android:name=".NaviActivity" />
+        <activity android:name=".GotoActivity" /> <!-- 카카오맵 -->
+        <activity android:name=".LoginActivity" />
+        <!-- 광고-->
+        <meta-data
+            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+            android:value="true"/>
+        <meta-data
+            android:name="com.kakao.sdk.AppKey"
+            android:value="2db0d8b949551bbf1f3b270d0e32bf12" />
+        <meta-data
+            android:name="com.kakao.sdk.kakaonavi.useWebView"
+            android:value="false" />
+
+        <activity android:name=".WebViewActivity" /> <!-- 구글맵 -->
+        <uses-library android:name="com.google.android.maps" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDp2MtKkUyks-Pg5yKf6W1vG8bWGZRGrB0" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+
+
+고객입장      입력 : /list
+
+서버입장      String str1 = in.readLine();
+
+	str2 = str1.substring(0, 1);
+
+
+str2 = /
+
+
+   if (str2.equals("/")) {
+
+        command(str1):
+
+	}
+
+   else {
+
+	out.println(str1);
+
+	}
+
+
+
+
+command(String str1) {
+
+switch(str1) 
+
+ case "/list" : out.println(유저리스트)
+
+}
+토크나이져 를 사용하거나 
+예외처리를 껴주거나 
+무한 널이 나온다고함.
